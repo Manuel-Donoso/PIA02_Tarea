@@ -70,5 +70,5 @@ def analizar_carpeta(ruta_carpeta):
 if __name__ == "__main__":
     print("--- AWS Rekognition - Detector de Matrículas ---")
     # Al usar Docker, la ruta será /data (mapeada a la carpeta 'imagenes')
-    ruta = input("Introduce la ruta de la carpeta de imágenes (en Docker usa /data): ")
-    analizar_carpeta(ruta)
+    ruta_docker = "/data"
+    analizar_carpeta(ruta_docker)
